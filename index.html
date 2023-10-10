@@ -6,17 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Bernardo de Albuquerque Lima Ramos</h1>
-    <img src="fotoPerfil.jpeg" alt="Foto do perfil Bernardo Ramos" width="300" id="foto-perfil">
-    <p>Bem-Vindo, meu nome é Bernardo de Albuquerque Lima Ramos, sou Brasileiro nascido na cidade do Rio de Janeiro como todo bom <i>carioca</i>
+    <h1>Portfólio</h1>
+    <ul style="display: inline-flex; gap: 2rem;">
+        <li><a href="#foto">Perfil</a></li>
+        <li><a href="#resenha">Resenha</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#links">Links</a></li>
+    </ul>
+    <h2 id="nome">Bernardo de Albuquerque Lima Ramos</h2>
+    <img id="foto" src="fotoPerfil.jpeg" alt="Foto do perfil Bernardo Ramos" width="300" id="foto-perfil">
+    <p id="resenha">Bem-Vindo, meu nome é Bernardo de Albuquerque Lima Ramos, sou Brasileiro nascido na cidade do Rio de Janeiro como todo bom <i>carioca</i>
         meu hobby preferido é estar na natureza, mas minha paixão é pela àrea de Tecnologia e Computação. </p>
-        <ul> Minhas Habilidades são:
-            <li>Foco</li>
-            <li>Trabalho em Equipe</li>
-            <li>Perseverança</li>
-            <li><em>Equilíbrio</em></li>
+        <ul id="habilidades"> Minhas Habilidades são:
+            <li><strong>Foco</strong></li>
+            <li> <strong>Trabalho em Equipe</strong></li>
+            <li><strong>Perseverança</strong></li>
+            <li><strong><em>Equilíbrio</em></strong></li>
         </ul>
-        <a href="#foto-perfil">foto-perfil</a> <br>
-        <a href="https://www.alltrails.com/pt-br">Alltrails</a>
+        <p>Minha foto: <a id="links" href="#foto-perfil">Foto Perfil</a></p> 
+        <p>Guia de Trilhas do Mundo: <a href="https://www.alltrails.com/pt-br" target="_blank">Alltrails</a></p>
 </body>
 </html>
