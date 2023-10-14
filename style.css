@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Young+Serif&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: rgb(0,75,168);
+    background: linear-gradient(90deg, rgba(0,75,168,1) 0%, 
+    rgb(20, 68, 117) 35%, rgba(31,50,117,1) 100%); 
+}
+
+li a {    
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+li a:hover {
+    font-weight: 900;
+}
+
+#nome {    
+    font-size: 2.5em;}
+
+p {    
+    font-size: 20px;    
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    position: absolute;
+    margin-left: 20px;
+}
+
+.inline {
+    display: inline-block;
+    margin-bottom: 180px;
+    margin-top: 60px;   
+}
+
+#boxum {
+    border: 1px solid black;
+    margin-top: 20px;
+    box-shadow: 2px 2px .4em 4px rgb(0, 0, 0);
+    background-color: blue;
+    width: 85%;
+}
+
+#boxdois {
+    border: 1px solid black;    
+    box-shadow: 2px 2px .4em 4px rgb(0, 0, 0);
+    background-color: blue;
+    width: 60%;
+    margin-left: 400px;
+    position: absolute;
+    top: 530px;
+
+}
+
+.links {
+    margin-top: 500px;    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#descricao {
+    margin-top: 100px;
+}
+
+.resenha {
+    padding-left: 350px;
+    padding-top: 50px;
+}
+
+.inlinewidth {
+    width: 80%;
+}
+
+#descricao p {
+    font-size: 30px;
+}
+
+#habilidades {
+    font-size: 25px;
+    line-height: 55px;
+    width: 14%;
+}
+
+#habilidades li {
+    list-style: inside;    
+}
+
+#habilidades li:nth-child(1) {
+    border-bottom: 1px solid red;
+    font-size: 24px;   
+}
+
+#habilidades li:nth-child(3) {
+    border-bottom: 1px solid red;
+    font-size: 20px;   
+}
+
+ul .css {
+    font-size: 22px;
+}
+
+
+
+       

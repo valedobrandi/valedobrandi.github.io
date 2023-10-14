@@ -4,71 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <style>
-        #nome {
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-            font-size: 2.5em;
-        }
-
-        p {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-size: 20px;
-        }
-
-        #descricao {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-        }
-
-        body {
-            background: rgb(0,75,168);
-            background: linear-gradient(90deg, rgba(0,75,168,1) 0%, rgba(62,120,178,1) 35%, rgba(31,50,117,1) 100%); 
-        }
-
-        #habilidades {
-            font-size: 25px;
-        }
-
-        ul .gestao {
-            font-size: 22px;
-        }
-
-        ul .css {
-            font-size: 20px;
-        }
-
-        ul .html {
-            font-size: 18px;
-        }
-
-        ul .javascript {
-            font-size: 16px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">    
 </head>
 <body>
     <h1>Portfólio</h1>
+    <h2 id="nome">Bernardo de Albuquerque Lima Ramos</h2>
     <ul style="display: inline-flex; gap: 2rem;">
         <li><a href="#foto">Perfil</a></li>
         <li><a href="#resenha">Resenha</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#links">Links</a></li>
     </ul>
-    <h2 id="nome">Bernardo de Albuquerque Lima Ramos</h2>
-    <img id="foto" src="fotoPerfil.jpeg" alt="Foto do perfil Bernardo Ramos" width="300" id="foto-perfil">
-    <section>
-    <h3>Bem-Vindo,</h3>
-    <p id="resenha" style="width: 800px;">Meu nome é Bernardo de Albuquerque,
+    <div id="boxum">
+    <div class="inline">    
+    <img src="fotoPerfil.jpeg" alt="Foto do perfil Bernardo Ramos" width="300" id="foto-perfil">
+    <div class="resenha">
+    <h3 class="inlinewidth">Bem-Vindo,</h3>
+    <p class="inlinewidth" id="resenha">Meu nome é Bernardo de Albuquerque,
          sou <em>Brasileiro</em> nascido na cidade do Rio de Janeiro, atualmente em <em>Menton, France.</em></p>      
-        <ul id="descricao">
-            <li>Cursando a formação em Desenvolvedor Web FullStack</li>
+    </div>
+    </div>
+    </div>
+    <div id="boxdois">    
+    <ul id="descricao">
+            <p>Formando em Desenvolvedor Web FullStack</p>
         </ul>  
-        <ul id="habilidades"> Experiências:            
+        <ul id="habilidades"> Habilidades            
             <li class="css"> <strong>CSS</strong></li>
             <li class="html"><strong>HTML</strong></li>
-            <li class="javascript"><strong><em>JavaScript</em></strong></li>
+            <li class="javascript"><strong><em>JAVASCRIPT</em></strong></li>
         </ul>        
-    </section>
-        <p>Minha foto: <a id="links" href="#foto-perfil">Foto Perfil</a></p> 
-        <p>Guia de Trilhas do Mundo: <a href="https://www.alltrails.com/pt-br" target="_blank">Alltrails</a></p>
-</body>
+        </div>
+        <div class="links">
+        <p>Minha foto: <a id="links" href="#foto-perfil">&#160&#160Perfil</a></p> 
+        <p>Guia de Trilhas pelo Mundo: <a href="https://www.alltrails.com/pt-br" target="_blank">&#160&#160Alltrails</a></p>
+        </div>
+    </body>
 </html>
