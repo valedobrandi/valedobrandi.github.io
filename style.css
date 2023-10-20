@@ -14,6 +14,10 @@ li a {
     color: black;
 }
 
+.btn-matrix {
+    color: rgba(255, 0, 0, 0.800);
+}
+
 li a:hover {
     font-weight: 900;
 }
@@ -45,17 +49,18 @@ img {
     margin-top: 20px;
     box-shadow: 2px 2px .4em 4px rgb(0, 0, 0);
     background-color: blue;
-    width: 85%;
+    width: 800px;
 }
 
 #boxdois {
     border: 1px solid black;    
     box-shadow: 2px 2px .4em 4px rgb(0, 0, 0);
     background-color: blue;
-    width: 60%;
+    width: 600px;
+    height: 500px;
     margin-left: 400px;
     position: absolute;
-    top: 530px;
+    top: 550px;
 
 }
 
@@ -78,7 +83,7 @@ a {
 }
 
 .inlinewidth {
-    width: 80%;
+    width: 450px;
 }
 
 #descricao p {
@@ -87,21 +92,18 @@ a {
 
 #habilidades {
     font-size: 25px;
-    line-height: 55px;
-    width: 14%;
+    line-height: 55px;   
 }
 
 #habilidades li {
     list-style: inside;    
 }
 
-#habilidades li:nth-child(1) {
-    border-bottom: 1px solid red;
+#habilidades li:nth-child(1) {    
     font-size: 24px;   
 }
 
-#habilidades li:nth-child(3) {
-    border-bottom: 1px solid red;
+#habilidades li:nth-child(3) {    
     font-size: 20px;   
 }
 

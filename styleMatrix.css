@@ -1,0 +1,59 @@
+body {
+  margin:  0;
+  background: black;
+  height: 90vh;
+}
+
+img {
+  height: 900px;
+  width: auto;
+  z-index: -1;
+  margin-top: 30px;
+  display: block;
+  position: absolute;
+  left: 162px;   
+}
+
+.login {
+  border: 2px double black;
+  height: 150px;
+  width: 260px;
+  position: absolute;
+  top: 471px;
+  left: 337px;
+  background: rgb(70,252,172);
+  background: linear-gradient(326deg, rgba(70,252,172,0.8) 33%, rgba(63,102,251,0.8) 53%);
+  box-shadow: 10px 10px 20px 10px;
+  
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: block;
+  position: absolute;
+  top: 604px;
+  left: 626px;
+  border-radius: 50%;
+  font-size: 20px;
+  padding-right: 18px;
+  background-color: red;
+}
+
+.btn:hover {
+    background-color: greenyellow;
+}
+
+h1 {
+  text-align: center;
+
+}
+   
+
+
+
+
